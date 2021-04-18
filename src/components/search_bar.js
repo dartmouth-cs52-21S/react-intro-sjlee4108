@@ -14,7 +14,8 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div>
+      <div id="search-bar">
+        <img src="./src/img/logo.png" alt="logo" />
         <input onChange={this.onInputChange} value={this.state.searchterm} />
       </div>
     );
