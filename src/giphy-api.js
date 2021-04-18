@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://api.giphy.com/v1/gifs/';
+const API_URL = 'https://api.giphy.com/v1/gifs/';
 const API_KEY = 'wNpkqqR67F3qBpbYyKCBYSHhg3J8F9xl';
 
 const giphySearch = (term) => {
